@@ -18,3 +18,16 @@ ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
 $ gtkwave ha.vcd
 ```
 ![ha_results](ha_results.png)     
+
+2. D Flip-Flop Example
+```
+$ ghdl -a dff.vhdl
+$ ghdl -a dff_tb.vhdl
+$ ghdl -e dff_tb
+$ ghdl -r dff_tb --vcd=dff.vcd
+$ gtkwave dff.vcd
+```
+![dff_results](dff_results.png)     
+
+
+
