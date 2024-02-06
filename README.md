@@ -17,4 +17,4 @@ $ ghdl -r ha_tb --vcd=ha.vcd
 ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
 $ gtkwave ha.vcd
 ```
-![ha_results](ha_results.jpg)     
+![ha_results](ha_results.png)     
