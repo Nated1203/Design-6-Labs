@@ -14,14 +14,7 @@
    - There were no errors during this process
    - Through the windows terminal the following commands launched the compiled code through *GTKWAVE*
      
-```
-$ ghdl -a ha.vhdl
-$ ghdl -a ha_tb.vhdl
-$ ghdl -e ha_tb
-$ ghdl -r ha_tb --vcd=ha.vcd
-ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
-$ gtkwave ha.vcd
-```
+![ha_ss](ha_ss.png)
 ![ha_results](ha_results.png)     
 
 2. D Flip-Flop Example
@@ -29,13 +22,8 @@ $ gtkwave ha.vcd
    - The codes were accessed and compiled using the same method
    - There were no errors during this process
    - Through the windows terminal the following commands launched the compiled code through *GTKWAVE*
-```
-$ ghdl -a dff.vhdl
-$ ghdl -a dff_tb.vhdl
-$ ghdl -e dff_tb
-$ ghdl -r dff_tb --vcd=dff.vcd
-$ gtkwave dff.vcd
-```
+   
+![dff_ss](dff_ss.png)
 ![dff_results](dff_results.png)     
 
 
