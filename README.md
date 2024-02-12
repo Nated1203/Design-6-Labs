@@ -12,7 +12,7 @@
    - I downloaded the half adder and half adder test bench vdhl code from the resources
    - These were opened through notepad to compile the code
    - There were no errors during this process
-   - Through the windows terminal the following commands launched the compiled code through GTKWAVE
+   - Through the windows terminal the following commands launched the compiled code through *GTKWAVE*
      
 ```
 $ ghdl -a ha.vhdl
@@ -28,7 +28,7 @@ $ gtkwave ha.vcd
    - For the second example I chose to use the D Flip-Flop
    - The codes were accessed and compiled using the same method
    - There were no errors during this process
-   - Through the windows terminal the following commands launched the compiled code through GTKWAVE
+   - Through the windows terminal the following commands launched the compiled code through *GTKWAVE*
 ```
 $ ghdl -a dff.vhdl
 $ ghdl -a dff_tb.vhdl
