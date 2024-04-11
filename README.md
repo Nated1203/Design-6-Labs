@@ -26,5 +26,11 @@
 ![dff_ss](dff_ss.png)
 ![dff_results](dff_results.png)     
 
-
+**Lab 2**
+*Raspberry Pi*
+- In this lab I connected my Rasberry Pi 4b to my computer through SSH connection hosted by the Putty application
+- The connection works by connecting both my computer and my Raspberry Pi to my mobile hotspot
+- Then by giving Putty the IP address of the Pi I am able to log in and type commands in the terminal of my Pi from my computer
+![LoginSS](Screenshot_2024-04-11_104703.png)
+  
 
