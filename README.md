@@ -28,9 +28,21 @@
 
 **Lab 2**
 *Raspberry Pi*
-- In this lab I connected my Rasberry Pi 4b to my computer through SSH connection hosted by the Putty application
-- The connection works by connecting both my computer and my Raspberry Pi to my mobile hotspot
-- Then by giving Putty the IP address of the Pi I am able to log in and type commands in the terminal of my Pi from my computer
-![LoginSS](Screenshot_2024-04-11_104703.png)
-  
+1.  In this lab I connected my Rasberry Pi 4b to my computer through SSH connection hosted by the Putty application
+   - The connection works by connecting both my computer and my Raspberry Pi to my mobile hotspot
+   - Then by giving Putty the IP address of the Pi I am able to log in and type commands in the terminal of my Pi from my computer
+
+![LoginSS](Login_ss.png)
+
+2. From the remote terminal I: 
+   - disabled the serial communication by booting the command line and removing "console=serial0,115200"
+   - installed ATP with the commands
+```
+$ sudo apt update
+$ sudo apt install minicom
+$ man minicom
+$ minicom -b 115200 -o -D /dev/ttyS0
+```
+
+![IntalledSS](Downloads_ss.png)
 
