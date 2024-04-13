@@ -46,3 +46,24 @@ $ minicom -b 115200 -o -D /dev/ttyS0
 
 ![IntalledSS](Downloads_ss.png)
 
+
+3. I also connected up an LED to the GPIO18 pin win a 100 Ohm resistor to then run the commands shown in the terminal to manually toggle the LED
+
+
+![ManualBlinkSS](ManualBlink_ss.png)
+
+
+**Lab 3**
+*Python*
+1. In this lab I used the connection established from the previous lab to pull and run python code directly from the terminal of the Pi
+   - This was done with the commands:
+```
+$ cd
+$ git clone https://github.com/kevinwlu/iot.git
+$ cd iot
+$ cd lesson3
+```
+
+2. Then after wireing up the GPIO18 just like in the last lab I used the Blink code from the repository to blink the LED automatically
+
+![BlinkSS](Blink_ss.png)
