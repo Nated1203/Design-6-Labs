@@ -69,7 +69,7 @@ $ cd lesson3
 ![BlinkSS](Blink_ss.png)
 
 
-** Lab 7 **
+**Lab 7**
 *ThingSpeak*
 1. This lab is designed to intorduce iot communication
    - This started off by creating a channel through thinkspeak to run python programs to get info on my pc and my availiable memory
