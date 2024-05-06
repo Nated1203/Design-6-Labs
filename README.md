@@ -67,3 +67,26 @@ $ cd lesson3
 2. Then after wireing up the GPIO18 just like in the last lab I used the Blink code from the repository to blink the LED automatically
 
 ![BlinkSS](Blink_ss.png)
+
+
+** Lab 7 **
+*ThingSpeak*
+1. This lab is designed to intorduce iot communication
+   - This started off by creating a channel through thinkspeak to run python programs to get info on my pc and my availiable memory
+   - This was run from the Pi through getting the API key off of ThingSpeak and implimenting it into the python code
+
+![ThingSpeakSS](ThingSpeakSS.png).
+
+2. Google Sheets
+   - Creating the bot email and json key went smoothly
+   - Transfering the file through scp was a nightmare
+   - I eventually downloaded the WinScp application because the command was not working since the json file was in the wrong directory and not being found
+     
+![EmailSS](EmailSS.png).
+
+3. Running the code
+  - I gave the rpi_spreadsheet all the correct modifications to have the key and the google sheets file
+  - The code would not run due the errors in the import section and I could not resolve this
+
+![ErrorSS](ErrorSS.png).
+
