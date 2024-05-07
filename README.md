@@ -68,6 +68,17 @@ $ cd lesson3
 
 ![BlinkSS](Blink_ss.png)
 
+**Lab 5**
+*Paho - MQTT*
+1. In this lab I attemped to download Mosquitto on both my pi and my laptop to establish a publisher/subscriber connection
+   - This was successfully downloaded on both systems
+
+![MosDownloadSS](MosDownloadSS.png)
+
+2. Code was then pulled from the github iot lesson 5
+   - There was the following error in running the code
+  
+![Error2SS](Error2SS.png).
 
 **Lab 7**
 *ThingSpeak*
